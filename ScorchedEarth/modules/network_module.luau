@@ -1,27 +1,27 @@
 local DETECTION_SIGNALS = {
-    ["1093"] = function(vargs)
-        rconsolewarn"BLOCKED DETECTION '124' [INSTANCE_DETECTED]";
+    ["233"] = function(vargs)
+        rconsolewarn"BLOCKED DETECTION '233' [INSTANCE_DETECTED]";
     end,
-    ["1015"] = function(vargs)
-        rconsolewarn"BLOCKED DETECTION '202' [INSTANCE_DETECTED]";
+    ["155"] = function(vargs)
+        rconsolewarn"BLOCKED DETECTION '155' [INSTANCE_DETECTED]";
     end,
-    ["1094"] = function(vargs)
-        rconsolewarn"BLOCKED DETECTION '203' [INSTANCE_DETECTED_OR_COREGUI_WEAKT]";
+    ["234"] = function(vargs)
+        rconsolewarn"BLOCKED DETECTION '234' [INSTANCE_DETECTED_OR_COREGUI_WEAKT]";
     end,
-    ["1095"] = function(vargs)
-        rconsolewarn"BLOCKED DETECTION '204' [SCRIPT_CONTEXT_ERROR]";
+    ["235"] = function(vargs)
+        rconsolewarn"BLOCKED DETECTION '235' [SCRIPT_CONTEXT_ERROR]";
     end,
-    ["205"] = function(vargs)
-        rconsolewarn"BLOCKED DETECTION '205' [SIGNALS/NETWORK_MODULE_TAMPER]";
+    ["236"] = function(vargs)
+        rconsolewarn"BLOCKED DETECTION '236' [SIGNALS/NETWORK_MODULE_TAMPER]";
     end,
-    ["1097"] = function(vargs)
-        rconsolewarn"BLOCKED DETECTION '206' [_G_VAR_DETECTED]";
+    ["237"] = function(vargs)
+        rconsolewarn"BLOCKED DETECTION '237' [_G_VAR_DETECTED]";
     end,
     ["envSpoof"] = function(vargs)
         rconsolewarn"BLOCKED DETECTION '206' [GETFENV_TRAP_TRIGGERED]";
     end,
-    ["963"] = function(vargs)
-        rconsolewarn"BLOCKED DETECTION '72' [GETFENV_TRAP_TRIGGERED]";
+    ["103"] = function(vargs)
+        rconsolewarn"BLOCKED DETECTION '103' [GETFENV_TRAP_TRIGGERED]";
     end
 };
 
