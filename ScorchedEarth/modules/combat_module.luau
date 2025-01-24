@@ -1,4 +1,4 @@
-local BULLET_FIRE_SUB_CODE = "677";
+local BULLET_FIRE_SUB_CODE = "1161";
 
 local camera = cloneref(workspace.CurrentCamera);
 local signal_module, character_module = ...;
